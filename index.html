@@ -1,0 +1,463 @@
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dog Cleaning Services | Dog Bathing, Grooming &amp; De-Shedding</title>
+  <meta name="description" content="Dog Cleaning Services offers professional dog baths, blow-drys, haircuts, de-shedding, nail trims and mud rescues for every breed and size. Book a bath or call (000) 000-0000.">
+  <meta name="theme-color" content="#0b0f1a">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dog Cleaning Services | Muddy In. Fluffy Out.">
+  <meta property="og:description" content="Professional dog bathing and grooming for every size, breed and level of mess.">
+  <meta property="og:image" content="assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "additionalType": "https://schema.org/PetGrooming",
+    "name": "Dog Cleaning Services",
+    "telephone": "+1-000-000-0000",
+    "description": "Professional dog bathing, grooming, de-shedding, nail trims and mud rescues for every breed and size.",
+    "image": "assets/images/og-image.jpg",
+    "priceRange": "$$"
+  }
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,300..800&family=DM+Sans:opsz,wght@9..40,400..700&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/images/hero-wet-golden.webp">
+  <link rel="stylesheet" href="css/styles.css">
+  <script>
+    (function (d) {
+      var c = d.documentElement;
+      c.className = c.className.replace('no-js', 'js');
+      if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) c.className += ' reduced';
+    })(document);
+  </script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+
+  <!-- SVG icon sprite -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+    <symbol id="i-paw" viewBox="0 0 64 64"><ellipse cx="32" cy="42" rx="14" ry="12"/><ellipse cx="14" cy="26" rx="6" ry="8" transform="rotate(-18 14 26)"/><ellipse cx="25" cy="15" rx="6" ry="8.5" transform="rotate(-6 25 15)"/><ellipse cx="39" cy="15" rx="6" ry="8.5" transform="rotate(6 39 15)"/><ellipse cx="50" cy="26" rx="6" ry="8" transform="rotate(18 50 26)"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h13M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M6.6 10.8a15.1 15.1 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.25 11.4 11.4 0 0 0 3.6.57 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.45.57 3.57a1 1 0 0 1-.25 1z" fill="currentColor"/></symbol>
+    <symbol id="i-plus" viewBox="0 0 24 24"><path d="M12 5v14M5 12h14" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 1.5l2.4 7.1 7.1 2.4-7.1 2.4L12 20.5l-2.4-7.1L2.5 11l7.1-2.4z" fill="currentColor"/></symbol>
+  </svg>
+
+  <!-- Preloader -->
+  <div class="loader" aria-hidden="true">
+    <div class="loader__tub">
+      <div class="loader__water"><span class="loader__wave"></span></div>
+      <div class="loader__count"><span class="loader__num">0</span><small>%</small></div>
+    </div>
+    <p class="loader__label">Filling the tub…</p>
+    <div class="loader__splash"></div>
+  </div>
+
+  <div class="cursor" aria-hidden="true"><span class="cursor__dot"></span><span class="cursor__ring"><svg><use href="#i-paw"/></svg></span></div>
+  <div class="progress" aria-hidden="true"><span></span></div>
+
+  <!-- Header -->
+  <header class="nav" id="top">
+    <div class="nav__inner">
+      <a href="#home" class="brand" aria-label="Dog Cleaning Services, back to top">
+        <span class="brand__mark"><svg><use href="#i-paw"/></svg></span>
+        <span class="brand__text">Dog Cleaning<br><b>Services</b></span>
+      </a>
+      <nav class="nav__links" aria-label="Primary">
+        <a href="#home">Home</a>
+        <a href="#services">Services</a>
+        <a href="#scrub">Scrub Test</a>
+        <a href="#about">About</a>
+        <a href="#why">Why Us</a>
+        <a href="#faq">FAQs</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav__cta">
+        <a href="tel:+10000000000" class="nav__phone"><svg><use href="#i-phone"/></svg><span>(000) 000-0000</span></a>
+        <a href="#contact" class="btn btn--pink btn--sm magnetic"><span>Book a Bath</span></a>
+        <button class="burger" aria-expanded="false" aria-controls="mobile-menu" aria-label="Open menu"><span></span><span></span></button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mmenu" id="mobile-menu" hidden>
+    <nav aria-label="Mobile">
+      <a href="#home">Home</a>
+      <a href="#services">Services</a>
+      <a href="#scrub">Scrub Test</a>
+      <a href="#about">About</a>
+      <a href="#why">Why Us</a>
+      <a href="#faq">FAQs</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <div class="mmenu__foot">
+      <a href="#contact" class="btn btn--pink"><span>Book a Bath</span></a>
+      <a href="tel:+10000000000" class="btn btn--ghost"><svg><use href="#i-phone"/></svg><span>(000) 000-0000</span></a>
+    </div>
+  </div>
+
+  <main id="main">
+
+    <!-- HERO -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <img src="assets/images/hero-wet-golden.webp" alt="A soaking-wet golden retriever puppy looking straight at the camera after a bath" width="2200" height="1237" fetchpriority="high">
+      </div>
+      <div class="hero__shade"></div>
+      <canvas class="hero__bubbles" aria-hidden="true"></canvas>
+
+      <div class="hero__content wrap">
+        <p class="eyebrow hero__eyebrow"><span class="dot"></span> Dog bathing &amp; grooming</p>
+        <h1 class="hero__title" id="hero-title">
+          <span class="line"><span class="line__in">Muddy in.</span></span>
+          <span class="line"><span class="line__in"><em>Fluffy</em> out.</span></span>
+        </h1>
+        <div class="hero__bottom">
+          <p class="hero__lead">Professional dog bathing and grooming for every size, breed and level of mess. Gentle hands, warm water, and a fresh-smelling pup heading home happy.</p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--pink magnetic"><span>Book a Bath</span><svg><use href="#i-arrow"/></svg></a>
+            <a href="tel:+10000000000" class="btn btn--glass magnetic"><svg><use href="#i-phone"/></svg><span>Call (000) 000-0000</span></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__sticker" aria-hidden="true">
+        <svg viewBox="0 0 200 200"><defs><path id="circ" d="M100,100 m-78,0 a78,78 0 1,1 156,0 a78,78 0 1,1 -156,0"/></defs><text><textPath href="#circ">FRESH • FLUFFY • FABULOUS • FRESH • FLUFFY • FABULOUS •</textPath></text></svg>
+        <span class="hero__sticker-paw"><svg><use href="#i-paw"/></svg></span>
+      </div>
+      <p class="hero__hint" aria-hidden="true"><span class="hint-bub"></span> Tap the bubbles</p>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Bath</span><svg><use href="#i-paw"/></svg><span>Blow-Dry</span><svg><use href="#i-paw"/></svg><span>Haircut</span><svg><use href="#i-paw"/></svg><span>Brush-Out</span><svg><use href="#i-paw"/></svg><span>Nails</span><svg><use href="#i-paw"/></svg><span>De-Shed</span><svg><use href="#i-paw"/></svg><span>Mud Rescue</span><svg><use href="#i-paw"/></svg>
+        <span>Bath</span><svg><use href="#i-paw"/></svg><span>Blow-Dry</span><svg><use href="#i-paw"/></svg><span>Haircut</span><svg><use href="#i-paw"/></svg><span>Brush-Out</span><svg><use href="#i-paw"/></svg><span>Nails</span><svg><use href="#i-paw"/></svg><span>De-Shed</span><svg><use href="#i-paw"/></svg><span>Mud Rescue</span><svg><use href="#i-paw"/></svg>
+      </div>
+    </div>
+
+    <!-- SERVICES -->
+    <section class="services section" id="services" aria-labelledby="services-title">
+      <div class="wrap">
+        <div class="shead">
+          <p class="eyebrow"><span class="dot"></span> Services</p>
+          <h2 class="h2 split" id="services-title">Everything from a quick rinse to the full spa day.</h2>
+          <p class="shead__lead">Pick one service or stack a few together. Every visit is tailored to your dog's coat, size and comfort level.</p>
+        </div>
+
+        <div class="cards">
+          <article class="card" style="--c:var(--aqua)">
+            <div class="card__img"><img src="assets/images/svc-bath-dry.webp" alt="A groomer blow-drying and brushing a small dog's coat" width="1100" height="733" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">01</span><h3>Bath &amp; Blow-Dry</h3><p>Shampoo, conditioner, a warm rinse and a fluffy blow-dry finish.</p></div>
+          </article>
+          <article class="card" style="--c:var(--pink)">
+            <div class="card__img"><img src="assets/images/svc-haircut.webp" alt="A white poodle getting its face trimmed with scissors" width="1100" height="733" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">02</span><h3>Full Groom &amp; Haircut</h3><p>Breed-style cuts or a custom trim, finished with a bath and brush.</p></div>
+          </article>
+          <article class="card" style="--c:var(--sun)">
+            <div class="card__img"><img src="assets/images/svc-brush-out.webp" alt="A slicker brush working through a golden dog's coat" width="1100" height="825" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">03</span><h3>De-Shedding Brush-Out</h3><p>Loose undercoat lifted out, so less fur ends up on your couch.</p></div>
+          </article>
+          <article class="card" style="--c:var(--sky)">
+            <div class="card__img"><img src="assets/images/svc-tidy-table.webp" alt="A small terrier standing on a grooming table" width="1100" height="825" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">04</span><h3>Nail Trim &amp; Paw Tidy</h3><p>Nails trimmed, paw pads tidied and the fur between toes neatened.</p></div>
+          </article>
+          <article class="card" style="--c:var(--aqua)">
+            <div class="card__img"><img src="assets/images/svc-teeth.webp" alt="A wet terrier in a tub having its teeth brushed" width="1100" height="733" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">05</span><h3>Teeth &amp; Ear Cleaning</h3><p>A gentle tooth brushing and ear clean for fresher breath and a tidy finish.</p></div>
+          </article>
+          <article class="card" style="--c:var(--pink)">
+            <div class="card__img"><img src="assets/images/svc-puppy-bath.webp" alt="A dachshund puppy sitting in a white bathtub" width="1100" height="1650" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">06</span><h3>Puppy's First Bath</h3><p>A slow, calm introduction to water, dryers and being handled.</p></div>
+          </article>
+          <article class="card" style="--c:var(--sun)">
+            <div class="card__img"><img src="assets/images/svc-mud-rescue.webp" alt="A pug covered in mud standing in a muddy field" width="1100" height="1650" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">07</span><h3>Mud &amp; Odor Rescue</h3><p>A deep clean after the swamp, the lake or whatever they rolled in.</p></div>
+          </article>
+          <article class="card" style="--c:var(--sky)">
+            <div class="card__img"><img src="assets/images/svc-spa.webp" alt="A small white dog wrapped in a towel wearing a shower cap" width="1100" height="1575" loading="lazy"></div>
+            <div class="card__body"><span class="card__n">08</span><h3>Spa Add-Ons</h3><p>Blueberry facial, paw balm and a bandana to finish the look.</p></div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCRUB TEST -->
+    <section class="scrub section" id="scrub" aria-labelledby="scrub-title">
+      <div class="wrap scrub__grid">
+        <div class="scrub__copy">
+          <p class="eyebrow"><span class="dot"></span> The scrub test</p>
+          <h2 class="h2 split" id="scrub-title">Go ahead. Give them a scrub.</h2>
+          <p class="scrub__lead">This pup just came back from a very good walk. Rub the mud away with your mouse or finger and see what a bath does.</p>
+          <div class="meter" role="group" aria-label="Clean-o-meter">
+            <div class="meter__top"><span>Clean-o-meter</span><b class="meter__val" aria-live="polite">0%</b></div>
+            <div class="meter__bar"><span class="meter__fill"></span></div>
+          </div>
+          <div class="scrub__btns">
+            <button type="button" class="btn btn--aqua btn--sm" data-scrub="auto"><span>Scrub for me</span></button>
+            <button type="button" class="btn btn--ghost btn--sm" data-scrub="reset"><span>Muddy them up again</span></button>
+          </div>
+        </div>
+        <div class="scrub__stage">
+          <img src="assets/images/clean-beagle.webp" alt="A clean, happy beagle smiling at the camera" width="1400" height="1050" loading="lazy">
+          <canvas class="scrub__mud" aria-label="Muddy layer. Drag across it to scrub it clean, or use the Scrub for me button." role="img"></canvas>
+          <canvas class="scrub__fx" aria-hidden="true"></canvas>
+          <div class="scrub__done" aria-hidden="true"><svg><use href="#i-spark"/></svg><b>Squeaky clean!</b><span>That's what we do every day.</span></div>
+          <p class="scrub__tag" aria-hidden="true">Drag to scrub</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="wrap about__grid">
+        <div class="about__head">
+          <p class="eyebrow"><span class="dot"></span> About us</p>
+          <h2 class="h2" id="about-title">Bath time, minus the drama.</h2>
+        </div>
+        <p class="about__statement words">We're a dog cleaning service built around one simple idea: a bath should feel good for your dog, not just look good when they leave. We take our time, read their mood, and keep things calm, warm and patient from the first rinse to the final fluff.</p>
+        <div class="about__media">
+          <figure class="about__img about__img--a" data-speed="-0.08"><img src="assets/images/groomer.webp" alt="A groomer brushing a white spitz on a grooming table" width="1400" height="932" loading="lazy"></figure>
+          <figure class="about__img about__img--b" data-speed="0.12"><img src="assets/images/towel-turban.webp" alt="A pomeranian with a pink towel wrapped around its head" width="1200" height="800" loading="lazy"></figure>
+          <figure class="about__img about__img--c" data-speed="0.22"><img src="assets/images/towel-pug.webp" alt="A pug wrapped in a white towel" width="1000" height="1278" loading="lazy"></figure>
+        </div>
+        <div class="about__copy">
+          <p>Big dogs, small dogs, double coats, curly coats, nervous first-timers and seasoned spa regulars: they all get the same gentle routine. We'll talk through what your dog needs, recommend only what helps, and send them home clean, comfortable and smelling great.</p>
+          <a href="#contact" class="btn btn--dark magnetic"><span>Book a visit</span><svg><use href="#i-arrow"/></svg></a>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY -->
+    <section class="why section" id="why" aria-labelledby="why-title">
+      <div class="wrap">
+        <div class="shead shead--center">
+          <p class="eyebrow"><span class="dot"></span> Why choose us</p>
+          <h2 class="h2 split" id="why-title">Six reasons tails keep wagging.</h2>
+        </div>
+        <ul class="bubbles">
+          <li class="bub" style="--c:var(--aqua)"><span class="bub__n">01</span><h3>Gentle, patient handling</h3><p>We go at your dog's pace, with breaks whenever they need one.</p></li>
+          <li class="bub" style="--c:var(--pink)"><span class="bub__n">02</span><h3>Every breed and size</h3><p>From tiny pups to giant breeds, short coats to thick double coats.</p></li>
+          <li class="bub" style="--c:var(--sun)"><span class="bub__n">03</span><h3>Thoughtful products</h3><p>Shampoos and conditioners chosen for your dog's coat and skin.</p></li>
+          <li class="bub" style="--c:var(--sky)"><span class="bub__n">04</span><h3>Clean, tidy stations</h3><p>Tubs, tables and tools are cleaned between every single dog.</p></li>
+          <li class="bub" style="--c:var(--aqua)"><span class="bub__n">05</span><h3>Clear communication</h3><p>We explain what we recommend and what it costs before we start.</p></li>
+          <li class="bub" style="--c:var(--pink)"><span class="bub__n">06</span><h3>Easy booking</h3><p>Request a time online or give us a call. We'll confirm the details.</p></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- BAND -->
+    <section class="band" aria-label="Shake it off">
+      <div class="band__pin">
+        <div class="band__frame"><img src="assets/images/shake-beach.webp" alt="A wet dog shaking water off its coat on a beach" width="1800" height="1012" loading="lazy"></div>
+        <canvas class="band__drops" aria-hidden="true"></canvas>
+        <div class="band__text" aria-hidden="true">
+          <span class="band__l band__l--1">Shake</span>
+          <span class="band__l band__l--2">it all</span>
+          <span class="band__l band__l--3">off.</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROCESS -->
+    <section class="process section" id="process" aria-labelledby="process-title">
+      <div class="wrap">
+        <div class="shead">
+          <p class="eyebrow"><span class="dot"></span> How it works</p>
+          <h2 class="h2 split" id="process-title">Three steps to a fresh pup.</h2>
+        </div>
+        <div class="steps">
+          <div class="paws" aria-hidden="true"></div>
+          <article class="step">
+            <span class="step__n">1</span>
+            <h3>Book a time</h3>
+            <p>Send a request below or call us. Tell us about your dog and what they need.</p>
+          </article>
+          <article class="step">
+            <span class="step__n">2</span>
+            <h3>Bath &amp; groom</h3>
+            <p>We wash, dry, brush and trim, keeping things calm and comfortable the whole way.</p>
+          </article>
+          <article class="step">
+            <span class="step__n">3</span>
+            <h3>Fresh pickup</h3>
+            <p>Your dog heads home clean, fluffy and smelling great. Expect extra cuddles.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section class="gallery section" aria-labelledby="gallery-title">
+      <div class="wrap">
+        <div class="shead shead--center">
+          <p class="eyebrow"><span class="dot"></span> The fresh wall</p>
+          <h2 class="h2 split" id="gallery-title">Suds, shakes and very good dogs.</h2>
+        </div>
+      </div>
+      <div class="gallery__cols">
+        <div class="gcol" data-speed="-0.12">
+          <img src="assets/images/bubble-bath.webp" alt="A bulldog sitting in a bubble bath" width="1000" height="1500" loading="lazy">
+          <img src="assets/images/shake-park.webp" alt="A dog shaking water off in a park" width="1200" height="795" loading="lazy">
+        </div>
+        <div class="gcol" data-speed="0.1">
+          <img src="assets/images/pink-pup.webp" alt="A shih tzu with a fresh trim in front of a pink wall" width="1000" height="1500" loading="lazy">
+          <img src="assets/images/bubbles-play.webp" alt="A small dog surrounded by floating soap bubbles" width="1400" height="933" loading="lazy">
+        </div>
+        <div class="gcol" data-speed="-0.06">
+          <img src="assets/images/wet-spaniel.webp" alt="A wet spaniel standing in a pink-tiled bathroom" width="1000" height="1500" loading="lazy">
+          <img src="assets/images/fluffy-white.webp" alt="A fluffy white dog wearing a blue bandana" width="1000" height="1500" loading="lazy">
+        </div>
+        <div class="gcol" data-speed="0.16">
+          <img src="assets/images/shake-grass.webp" alt="A wet dog shaking off water in the grass" width="1000" height="1504" loading="lazy">
+          <img src="assets/images/towel-pug.webp" alt="A pug wrapped up in a white towel" width="1000" height="1278" loading="lazy">
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq__grid">
+        <div class="faq__head">
+          <p class="eyebrow"><span class="dot"></span> FAQs</p>
+          <h2 class="h2 split" id="faq-title">Good questions from good owners.</h2>
+          <p>Don't see yours? Call <a href="tel:+10000000000">(000) 000-0000</a> and we'll help.</p>
+        </div>
+        <div class="acc">
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">How often should my dog be bathed?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-1" role="region" aria-labelledby="faq-1-btn"><p>It depends on coat type and lifestyle. Many dogs do well with a bath every four to eight weeks, and active or long-coated dogs may need it more often. We're happy to suggest a schedule for your dog.</p></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">Do you groom all breeds and sizes?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn"><p>Yes. Small, medium, large and extra-large dogs are all welcome. Let us know your dog's breed and size when you book so we can plan the right amount of time.</p></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">My dog is nervous. Can you still help?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn"><p>Absolutely. Tell us what makes your dog anxious and we'll slow things down, take breaks and keep the experience as calm as possible.</p></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">How long does an appointment take?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn"><p>It depends on your dog's size, coat and the services you choose. We'll give you an estimated time when we confirm your booking.</p></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">What should I bring?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn"><p>Just your dog on a leash or in a carrier. If they have skin sensitivities, allergies or a favorite product, let us know ahead of time.</p></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">Can I book a bath only, without a haircut?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn"><p>Yes. Our Bath &amp; Blow-Dry is a service on its own, and you can add extras like a nail trim or de-shedding brush-out.</p></div>
+          </div>
+          <div class="acc__item">
+            <h3><button class="acc__btn" aria-expanded="false" aria-controls="faq-7" id="faq-7-btn">How do I book?<span class="acc__ico"><svg><use href="#i-plus"/></svg></span></button></h3>
+            <div class="acc__panel" id="faq-7" role="region" aria-labelledby="faq-7-btn"><p>Fill out the booking request form on this page or call <a href="tel:+10000000000">(000) 000-0000</a>. We'll reach out to confirm your date and time.</p></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section class="contact section" id="contact" aria-labelledby="contact-title">
+      <canvas class="contact__bubbles" aria-hidden="true"></canvas>
+      <div class="wrap contact__grid">
+        <div class="contact__copy">
+          <p class="eyebrow"><span class="dot"></span> Book a bath</p>
+          <h2 class="h2 split" id="contact-title">Ready for a fresh, fluffy pup?</h2>
+          <p class="contact__lead">Send a booking request and we'll get back to you to confirm the details. Prefer to talk? We're one call away.</p>
+          <a href="tel:+10000000000" class="contact__phone magnetic"><span class="contact__phone-ico"><svg><use href="#i-phone"/></svg></span><span><small>Call us</small>(000) 000-0000</span></a>
+        </div>
+
+        <div class="formcard">
+          <form class="bform" name="booking" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field" novalidate>
+            <input type="hidden" name="form-name" value="booking">
+            <p class="hp" aria-hidden="true"><label>Leave this empty <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+
+            <div class="bform__row">
+              <div class="field"><input id="f-name" name="name" type="text" autocomplete="name" placeholder=" " required><label for="f-name">Your name *</label><span class="field__err" id="f-name-err"></span></div>
+              <div class="field"><input id="f-phone" name="phone" type="tel" autocomplete="tel" placeholder=" " required><label for="f-phone">Phone *</label><span class="field__err" id="f-phone-err"></span></div>
+            </div>
+            <div class="bform__row">
+              <div class="field"><input id="f-email" name="email" type="email" autocomplete="email" placeholder=" " required><label for="f-email">Email *</label><span class="field__err" id="f-email-err"></span></div>
+              <div class="field"><input id="f-dog" name="dog-name" type="text" placeholder=" " required><label for="f-dog">Dog's name *</label><span class="field__err" id="f-dog-err"></span></div>
+            </div>
+            <div class="bform__row">
+              <div class="field field--select">
+                <select id="f-size" name="dog-size" required>
+                  <option value="" disabled selected></option>
+                  <option>Small (under 20 lb)</option>
+                  <option>Medium (20–50 lb)</option>
+                  <option>Large (50–90 lb)</option>
+                  <option>Extra large (90+ lb)</option>
+                </select>
+                <label for="f-size">Dog's size *</label><span class="field__err" id="f-size-err"></span>
+              </div>
+              <div class="field field--select">
+                <select id="f-service" name="service" required>
+                  <option value="" disabled selected></option>
+                  <option>Bath &amp; Blow-Dry</option>
+                  <option>Full Groom &amp; Haircut</option>
+                  <option>De-Shedding Brush-Out</option>
+                  <option>Nail Trim &amp; Paw Tidy</option>
+                  <option>Teeth &amp; Ear Cleaning</option>
+                  <option>Puppy's First Bath</option>
+                  <option>Mud &amp; Odor Rescue</option>
+                  <option>Spa Add-Ons</option>
+                  <option>Not sure yet</option>
+                </select>
+                <label for="f-service">Service *</label><span class="field__err" id="f-service-err"></span>
+              </div>
+            </div>
+            <div class="bform__row">
+              <div class="field"><input id="f-breed" name="breed" type="text" placeholder=" "><label for="f-breed">Breed (optional)</label></div>
+              <div class="field field--date"><input id="f-date" name="preferred-date" type="date"><label for="f-date">Preferred date</label></div>
+            </div>
+            <div class="field"><textarea id="f-msg" name="message" rows="3" placeholder=" "></textarea><label for="f-msg">Anything we should know?</label></div>
+
+            <button type="submit" class="btn btn--pink btn--block magnetic"><span class="bform__label">Send booking request</span><svg><use href="#i-arrow"/></svg></button>
+            <p class="bform__status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="bsuccess" hidden tabindex="-1">
+            <span class="bsuccess__ico"><svg><use href="#i-paw"/></svg></span>
+            <h3>You're on the list!</h3>
+            <p>Thanks for your booking request. We'll be in touch soon to confirm your date and time. Need us sooner? Call <a href="tel:+10000000000">(000) 000-0000</a>.</p>
+            <button type="button" class="btn btn--ghost btn--sm bsuccess__again"><span>Send another request</span></button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="foot">
+    <div class="wrap">
+      <div class="foot__top">
+        <a href="#home" class="brand brand--foot"><span class="brand__mark"><svg><use href="#i-paw"/></svg></span><span class="brand__text">Dog Cleaning<br><b>Services</b></span></a>
+        <nav class="foot__nav" aria-label="Footer">
+          <a href="#services">Services</a><a href="#scrub">Scrub Test</a><a href="#about">About</a><a href="#why">Why Us</a><a href="#faq">FAQs</a><a href="#contact">Contact</a>
+        </nav>
+        <a href="tel:+10000000000" class="foot__phone">(000) 000-0000</a>
+      </div>
+      <p class="foot__word" aria-hidden="true">Fresh&nbsp;Pup<svg><use href="#i-paw"/></svg></p>
+      <div class="foot__bottom">
+        <p>&copy; <span class="year">2026</span> Dog Cleaning Services. All rights reserved.</p>
+        <p>Website designed by <a href="https://martinezmarketing.website/" target="_blank" rel="noopener">Martinez Marketing</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/vendor/gsap.min.js" defer></script>
+  <script src="assets/vendor/ScrollTrigger.min.js" defer></script>
+  <script src="assets/vendor/lenis.min.js" defer></script>
+  <script src="js/main.js" defer></script>
+</body>
+</html>
